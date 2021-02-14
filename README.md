@@ -54,4 +54,8 @@ Kody powstały w ramach przedmiotu **Algorytmy i Struktury Danych** realizowaneg
 Projekt **The Hive** powstał w ramach zaliczenia przedmiotu **Algorytmy i Struktury Danych**. 
 Został napisany w językach Python oraz C# (z wykorzystaniem technologii WPF). 
 Aplikacja ta jest przykładem wykorzystania **algorytmu pszczelego** i umożliwia wyszukanie minimum lub ekstremum
-jednej z trzech funkcji dla zadanego przedziału liczbowego.
+jednej z trzech funkcji dla zadanego przedziału liczbowego. Przykład użycia aplikacji:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/43967269/107881036-8ea87100-6ee2-11eb-93da-6e01a34ecba6.png" alt="HiveExample" width="400"/>
+</p>
