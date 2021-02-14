@@ -1,0 +1,39 @@
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\bin\Debug\The Hive.exe.config
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\bin\Debug\The Hive.exe
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\bin\Debug\The Hive.pdb
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\The Hive.csprojAssemblyReference.cache
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\MainWindow.baml
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\MainWindow.g.cs
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\App.g.cs
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\The Hive_MarkupCompile.cache
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\The Hive.g.resources
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\The_Hive.Properties.Resources.resources
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\The Hive.csproj.GenerateResource.cache
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\The Hive.exe
+C:\Users\mkami\Desktop\Algorytmy i struktury danych\The Hive\The Hive\obj\Debug\The Hive.pdb
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\bin\Debug\The Hive.exe.config
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\bin\Debug\The Hive.exe
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\bin\Debug\The Hive.pdb
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\The Hive.csprojAssemblyReference.cache
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\MainWindow.baml
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\MainWindow.g.cs
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\App.g.cs
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\The Hive_MarkupCompile.cache
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\The Hive.g.resources
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\The_Hive.Properties.Resources.resources
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\The Hive.csproj.GenerateResource.cache
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\The Hive.exe
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\Aplikacja\The Hive\obj\Debug\The Hive.pdb
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\bin\Debug\The Hive.exe.config
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\bin\Debug\The Hive.exe
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\bin\Debug\The Hive.pdb
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\The Hive.csprojAssemblyReference.cache
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\MainWindow.baml
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\MainWindow.g.cs
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\App.g.cs
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\The Hive_MarkupCompile.cache
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\The Hive.g.resources
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\The_Hive.Properties.Resources.resources
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\The Hive.csproj.GenerateResource.cache
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\The Hive.exe
+C:\Users\mkami\Desktop\The Hive\Pliki źródłowe\The Hive\obj\Debug\The Hive.pdb

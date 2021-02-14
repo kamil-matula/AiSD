@@ -1,0 +1,99 @@
+﻿<Window x:Class="The_Hive.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="The Hive" Height="900" Width="600" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="back.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.ColumnSpan="4" Grid.Row="0" TextAlignment="Center" Text="WITAJ W ULU" FontWeight="Bold" FontSize="40" Margin="0,30,0,20"/>
+        <TextBlock Grid.ColumnSpan="4" Grid.Row="1" TextAlignment="Center" TextWrapping="Wrap" Foreground="Black" FontSize="20" Margin="0,5,0,5">
+            Jeśli chcesz obzyczyć minimum lub maksimum <LineBreak/> funkcji, wypełnij dane i bzyknij w przycisk!
+        </TextBlock>
+
+
+        <TextBlock Grid.ColumnSpan="4" Grid.Row="2" TextAlignment="Left" VerticalAlignment="Bottom" Text="Przedział" FontWeight="Bold" FontSize="20" Height="30" Margin="30,0,0,5"/>
+        <TextBox Grid.Column="0" Grid.Row="3" Background="#2D2D2D" TextAlignment="Center" VerticalAlignment="Top" FontSize="20" Height="30" 
+                 Margin="30,0,0,0" Text="od" Foreground="Yellow" FontWeight="Bold" x:Name="leftEnd" PreviewTextInput="CheckInput" GotFocus="TextBox_GotFocus"/>
+        <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" Grid.RowSpan="2" Content="-" FontWeight="Bold" VerticalAlignment="Center" 
+               HorizontalAlignment="Center" FontSize="30" VerticalContentAlignment="Top" Margin="0,25,0,0"/>
+        <TextBox Grid.Column="3" Grid.Row="3" Background="#2D2D2D" TextAlignment="Center" VerticalAlignment="Top" FontSize="20" Height="30" 
+                 Margin="0,0,30,0" Text="do" Foreground="Yellow" FontWeight="Bold" x:Name="rightEnd" PreviewTextInput="CheckInput" GotFocus="TextBox_GotFocus"/>
+
+
+        <TextBlock Grid.ColumnSpan="4" Grid.Row="4" TextAlignment="Left" VerticalAlignment="Bottom" Text="Poszukiwane ekstremum" FontWeight="Bold" FontSize="20" Height="30" Margin="30,0,0,5"/>
+        <ListBox Grid.ColumnSpan="4" Grid.Row="5" FontWeight="Bold" VerticalContentAlignment="Center" Height="35" FontSize="20" BorderBrush="White" VerticalAlignment="Top" x:Name="ChosenExtremum">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBoxItem Grid.Column="0" HorizontalContentAlignment="Center" Background="#FFF247" Margin="30,0,30,0">MINIMUM</ListBoxItem>
+            <ListBoxItem Grid.Column="1" HorizontalContentAlignment="Center" Background="#FFF247" Margin="30,0,30,0">MAKSIMUM</ListBoxItem>
+        </ListBox>
+
+
+        <TextBlock Grid.ColumnSpan="4" Grid.Row="6" TextAlignment="Left" VerticalAlignment="Bottom" Text="Wybierz funkcję" FontWeight="Bold" FontSize="20" Height="30" Margin="30,0,0,0"/>
+        <ListBox Grid.ColumnSpan="4" Grid.Row="7" Foreground="White" Height="140" FontSize="15" VerticalAlignment="Top" BorderBrush="White" Background="White" x:Name="ChosenFunction" 
+                 Margin="20, 0, 20, 0">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBoxItem Grid.Column="0" HorizontalContentAlignment="Center">
+                <Image Source="1.png"/>
+            </ListBoxItem>
+            <ListBoxItem Grid.Column="1" HorizontalContentAlignment="Center">
+                <Image Source="2.png"/>
+            </ListBoxItem>
+            <ListBoxItem Grid.Column="2" HorizontalContentAlignment="Center">
+                <Image Source="3.png"/>
+            </ListBoxItem>
+        </ListBox>
+
+
+        <Button Grid.ColumnSpan="4" Grid.Row="8" Background="#FFF247" VerticalAlignment="Center" Content="OBZYCZ" 
+                FontWeight="Bold" FontSize="20" Height="50" Width="200" BorderBrush="White" Click="Calculate"/>
+
+        <TextBlock Grid.ColumnSpan="4" Grid.Row="9" TextAlignment="Left" VerticalAlignment="Bottom" Text="Wynik" FontWeight="Bold" FontSize="20" Height="30" Margin="30,0,0,0"/>
+
+        <Label Grid.ColumnSpan="4" Grid.Row="10" Background="#2D2D2D" x:Name="Result" HorizontalContentAlignment="Center" FontWeight="Bold"
+               VerticalContentAlignment="Center" Foreground="#FFF247" FontSize="20" Margin="30,10,30,20"/>
+    </Grid>
+</Window>
